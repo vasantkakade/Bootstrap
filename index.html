@@ -44,7 +44,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-block card-color"> <a href="#registertable"> Reserve Table </a></button>
+                    <button type="button" class="btn btn-block btn-sm btn-warning"> <a href="#registertableform"> Reserve Table </a></button>
                 </div>                
             </div>
         </div>
@@ -72,10 +72,10 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
+            <div class="col col-sm col-md">
                 <div class="media">
                     <div class="media-body">                
                         <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span> </h2>
@@ -110,12 +110,12 @@
             </div>
         </div>
         <div class="col-12 offset-md-2 col-sm-8">
-            <div class="card" id="registertable">
+            <div class="card">
                 <h3 class="card-header card-color text-white">Reserve a Table</h3>
                 <div class="card-body">
                     <div class="row row-content">
                         <div class="col-12 col-md-9">
-                            <form>
+                            <form id="registertableform">
                                 <div class="form-group row">
                                     <label for="numberofguests" class="col-md-3 col-form-label">Number of Guests</label>
                                     <div class="col-md-9">
@@ -142,10 +142,10 @@
                                 <div class="form-group row">
                                     <label for="datetime" class="col-12 col-md-3 col-form-label">Date and Time</label>
                                     <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                                        <input type="date" class="form-control" id="date" name="date" placeholder="Date">
                                     </div>
                                     <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                                        <input type="time" class="form-control" id="time" name="time" placeholder="Time">
                                     </div>
                                 </div>
                                 <div class="form-group row">
