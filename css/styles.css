@@ -63,3 +63,11 @@ body{
     left: 0;
     min-height: 300px;
 }
+
+.btn-green {
+    background-color: green;
+}
+
+.btn-red {
+    background-color: red;
+}
